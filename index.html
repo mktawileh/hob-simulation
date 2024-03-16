@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hot Air Balloon</title>
+    </head>
+
+    <body>
+        <img src="heightmap.png" style="display: none" alt="" srcset="" />
+        <div class="display">
+            <ul>
+                <li class="item_vis">
+                    Temp: <span id="temp">0</span><sup>°</sup>
+                </li>
+                <li class="item_vis">
+                    Height: <span id="height">0</span><sub>m</sub>
+                </li>
+                <li class="item_vis">
+                    Air Density: <span id="density">0</span
+                    ><sub>kg/m<sup>3</sup></sub>
+                </li>
+                <li class="item_vis">
+                    Balloon Air Denstiy: <span id="ballon_density">0</span
+                    ><sub>kg/m<sup>3</sup></sub>
+                </li>
+            </ul>
+        </div>
+        <canvas class="scene"></canvas>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
